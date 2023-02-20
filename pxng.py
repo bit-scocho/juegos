@@ -1,6 +1,6 @@
 '''
 
-> Practica de creacion de videojuego con pygame y programacion orientada a objetos.
+> Creacion de videojuego con pygame y programacion orientada a objetos.
 
 * Juego a desarrollar: Una version de PONG.
 
@@ -173,18 +173,18 @@ class Principal():
 		self.__radio = 7
 		self.__ancho_linea = 2
 		self.__fps = 0
-		self.__colores =	{
-							"NEG": (0, 0, 0),
-							"BLA": (255, 255, 255)
-							}
+		self.__colores = {
+		"NEG": (0, 0, 0),
+		"BLA": (255, 255, 255)
+		}
 		self.__tcl_jug_a = {
-							"ARR": pygame.K_w,
-							"ABA": pygame.K_s
-							}
+		"ARR": pygame.K_w,
+		"ABA": pygame.K_s
+		}
 		self.__tcl_jug_b = {
-							"ARR": pygame.K_UP,
-							"ABA": pygame.K_DOWN
-							}
+		"ARR": pygame.K_UP,
+		"ABA": pygame.K_DOWN
+		}
 
 	def ejecutar(self):
 		#Inicia modulos de pygame
